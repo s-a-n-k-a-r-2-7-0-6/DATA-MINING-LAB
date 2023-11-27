@@ -1,0 +1,21 @@
+@relation labour
+@attribute name string
+@attribute job_duration numeric
+@attribute sal_increase_1yr numeric
+@attribute sal_increase_2yr numeric
+@attribute sal_increase_3yr numeric
+@attribute working_hours numeric
+@attribute shift {day,night}
+@attribute education_allow {yes,no}
+@attribute noofholidays_year numeric
+@attribute noofpaidvocationdays_year numeric
+@attribute longterm_disability_contribution {yes,no}
+@attribute contribution_to_dental_plan {none,half,full}
+@attribute bereavement_assistance {yes,no}
+@attribute contibution_to_health_plan {none,half,full}
+@data
+?,3,2,2,2,6,day,no,5,5,no,half,no,none
+harish,2,2,2,3,5,night,no,5,4,no,none,no,none
+ramesh,8,2,3,3,7,day,no,5,5,yes,full,yes,half
+suresh,5,2,3,2,6,night,no,5,3,no,half,no,half
+Naresh,5,2,2,2,6,day,no,5,4,no,half,no,half
